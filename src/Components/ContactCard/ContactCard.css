@@ -1,0 +1,67 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-card-container{
+    width: 15vw;
+    height: 30vh;
+    background-color: red;
+    border-radius: 11px;
+    background: #FFF;
+    box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2vw;
+}
+.contact-img{
+    width: 3vw;
+    margin: 5vh 0;
+}
+.contact-card-title{
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0.3vh;
+}
+.contact-card-sub-title{
+    color: #656565;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0.3vh;
+}
+@media (max-width: 768px) {
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-card-container{
+        width: 80vw;
+        height: 30vh;
+        background-color: red;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 3px 4px 33px 5px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 2vw;
+    }
+    .contact-img{
+        width: 10vw;
+        margin: 5vh 0;
+    }
+}

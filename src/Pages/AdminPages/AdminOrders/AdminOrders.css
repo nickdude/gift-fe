@@ -1,0 +1,63 @@
+.admin-orders-container{
+    width: 80vw;
+    min-height: 100vh;
+}
+
+/*========================Admin Search===============================*/
+
+.admin-orders-search-container{
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.admin-orders-search-container input{
+    background-color: #E2E6FE;
+    border: none;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 15px 0 0 15px;
+    padding: 0 0 0 1vw;
+    outline: none;
+}
+.admin-orders-search-container button{
+    background-color: #E2E6FE;
+    border: none;
+    /* width: 3vw; */
+    height: 5vh;
+    padding: 0 1vw 0 0;
+    border-radius: 0 15px 15px 0;
+    outline: none;
+}
+
+
+/*========================Admin Table===============================*/
+
+.admin-orders-table-container{
+    width: 75vw;
+    min-height: 48vh;
+    height: fit-content;
+    padding: 1vh 0 1vh 3vw;
+}
+
+.admin-orders-table-container table{
+    width: 72vw;
+    border-collapse: collapse;
+}
+.admin-orders-table-container th{
+    background-color:#405089;
+    color: #fff;
+    padding: 1vw;
+}
+.admin-orders-table-container img{
+    width: 2vw;
+    color: #fff;
+    margin: 0 0.3vw 0 0;
+}
+.admin-orders-table-container td{
+    padding: 1vw;
+    text-align: center;
+    font-weight: 400;
+}
+

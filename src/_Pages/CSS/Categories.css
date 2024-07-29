@@ -1,0 +1,68 @@
+.categories-container{
+    height: fit-content;
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.categories-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.categories-list{
+    width: 40vw;
+    height: 8vh;
+    background-color: rgb(180, 192, 244);
+    border-radius: 20px;
+    margin: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories-label{
+    width: 28vw;
+    height: 8vh;
+    display: flex;
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+.categories-buttons{
+    width: 12vw;
+    height: 4vh;
+}
+.category-add-button{
+    width: 3vw;
+    height: 3vw;
+    background-color: rgb(180, 192, 244);
+    border-radius: 30px;
+    border: none;
+    margin: 2vw;
+    color: white;
+}
+.categories-edit{
+    width: 5vw;
+    height: 4vh;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    margin: 0 0.5vw 0 0;
+}
+.categories-delete{
+    width: 5vw;
+    height: 4vh;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+}

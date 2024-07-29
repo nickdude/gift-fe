@@ -1,0 +1,30 @@
+.edit-company-container{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.edit-company-container label{
+    margin: 4vh 0 0 2vw;
+    width: 40vw;
+    height: 4vh;
+}
+.edit-company-container input{
+    margin: 0.5vh 0 0 2vw;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+.edit-company-container button{
+    width: 3vw;
+    height: 3vw;
+    margin: 2vh 0 0 2vw;
+    border-radius: 10px;
+}
+.edit-company-buttons button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 15vh 2vw;
+    font-size: 3vh;
+}

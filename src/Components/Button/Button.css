@@ -1,0 +1,31 @@
+.button-container{
+    border-radius: 41px;
+    /* background-color: #EBA9D7; */
+    color: #fff;
+    padding: 1vw;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .button-container{
+        border-radius: 41px;
+        /* background-color: #EBA9D7; */
+        color: #fff;
+        padding: 2vh;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

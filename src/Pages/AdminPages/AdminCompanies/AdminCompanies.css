@@ -1,0 +1,98 @@
+.admin-companies-container{
+    width: 80vw;
+    min-height: 100vh;
+}
+
+.admin-companies-header{
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-companies-header-left{
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.admin-companies-header-left p{
+    margin: 0 0 0 8vw ;
+}
+.admin-companies-header-left button{
+    margin: 0 0 0 1vw ;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+    background-color: #DEE2FA;
+}
+.admin-companies-header-right{
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.admin-companies-header-right input{
+    background-color: #E2E6FE;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 15px 0 0 15px;
+    padding: 0 0 0 1vw;
+    outline: none;
+    margin: 0 0 0 20vw;
+}
+.admin-companies-header-right button{
+    background-color: #E2E6FE;
+    border: none;
+    /* width: 3vw; */
+    height: 5vh;
+    padding: 0 1vw 0 0;
+    border-radius: 0 15px 15px 0;
+    outline: none;
+}
+/*=====================admin companies table=================*/
+
+.admin-companies-table-container{
+    width: 75vw;
+    min-height: 48vh;
+    height: fit-content;
+    padding: 1vh 0 1vh 3vw;
+}
+
+.admin-companies-table-container table{
+    width: 72vw;
+    border-collapse: separate;
+    border-spacing: 0 1vh; 
+}
+.admin-companies-table-container th{
+    background-color:#E2E6FE;
+    padding: 1vw;
+    text-align: inherit;
+}
+.admin-companies-table-container img{
+    width: 2vw;
+    color: #fff;
+    margin: 0 0.3vw 0 0;
+}
+.admin-companies-table-container td{
+    padding: 1vw;
+    font-weight: 400;
+    background-color:#E2E6FE;
+}
+.admin-companies-table-container i{
+    margin: 0.5vw;
+    text-align: center;
+}
+
+.comp-img{
+    width: 10vw;
+}
+.comp-name{
+    width: 3vw;
+}
+.comp-action{
+    text-align: end;
+}   

@@ -1,0 +1,137 @@
+.product-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 80vh;
+}
+.product-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 1vh;
+}
+.product-list-container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-detail-header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-card-container{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1vw solid #11314C;
+    border-radius: 10px;
+}
+.product-details-container{
+    width: 30vw;
+    height: 60vh;
+}
+.price-details-container{
+    width: 30vw;
+    height: 60vh;
+}
+.additional-info-details-container{
+    width: 30vw;
+    height: 60vh;
+}
+.product-details-container, .price-details-container h1{
+    font-size: 2vh;
+    margin: 1vw;
+    text-decoration: underline;
+}
+.product-details-container p{
+    font-size: 2.1vh;
+}
+.value{
+    font-size: 3vh;
+    text-decoration: none;
+}
+.delete-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin: 0 0 0 0.5vw;
+}
+.edit-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 0 0 0 1vw;
+}
+/* .add-button{
+    background-color: #11314C;
+    border-radius: 20px;
+    color: white;
+    width: 3vw;
+    height: 3vw;
+    margin: 1vw;
+    font-size: 4vh;
+}
+.product-list-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-card{
+    width: 35vw;
+    height: 8vh;
+    background-color: rgb(160, 163, 160);
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin: 1.5vh;
+}
+.product-card p{
+    width: 13vw;
+}
+.product-card img{
+    height: 6vh ;
+    border-radius: 10px;
+    margin: 0 3vw 0 2vw;
+}
+.delete-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin: 0 0 0 0.5vw;
+}
+.edit-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 0 0 0 1vw;
+} */

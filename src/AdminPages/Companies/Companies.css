@@ -1,0 +1,70 @@
+.comp-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 80vh;
+}
+.comp-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 1vh;
+}
+.add-button{
+    background-color: #11314C;
+    border-radius: 20px;
+    color: white;
+    width: 3vw;
+    height: 3vw;
+    margin: 1vw;
+    font-size: 4vh;
+}
+.comp-list-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.comp-card{
+    width: 35vw;
+    height: 30vh;
+    background-color: rgb(160, 163, 160);
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    /* margin: 1.5vh; */
+    flex-direction: column;
+}
+.comp-card p{
+    width: 13vw;
+    margin:0
+}
+.delete-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+  
+}
+.edit-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+   
+}

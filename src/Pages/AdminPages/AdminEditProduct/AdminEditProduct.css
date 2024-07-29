@@ -1,0 +1,161 @@
+.admin-edit-product-container{
+    width: 80vw;
+    min-height: 100vh;
+}
+.admin-edit-product-header{
+    width: 80vw;
+    min-height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin-edit-product-header p{
+    margin-left: 2vw;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.admin-edit-product-header button{
+    margin: 0 1vw 0 0 ;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+    background-color: #DEE2FA;
+}
+.admin-edit-product-summary{
+    width: 80vw;
+    min-height:20vh;
+    display: flex;
+}
+.admin-edit-product-summary-left{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-edit-product-summary-left img{
+    width: 10vw;
+}
+.admin-edit-product-summary-right{
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.admin-edit-product-summary-right input{
+    width: 40vw;
+    height: 5vh;
+    margin: 1vh 0 1vh 2vw;
+    border-radius: 10px;
+    /* border: solid 2px black; */
+}
+.admin-edit-product-summary-right textarea{
+    width: 40vw;
+    height: 12vh;
+    margin: 1vh 0 1vh 2vw;
+    border-radius: 10px;
+    /* border: solid 2px black; */
+}
+.admin-edit-product-selection{
+    width: 80vw;
+    min-height:10vh;
+    display: flex;
+    align-items: center;
+}
+.admin-edit-product-selection select,label{
+    margin: 1vw;
+}
+.admin-edit-product-selection select{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    padding: 1vh;
+    border-radius: 10px;
+    background-color: #DEE2FA;
+}
+.admin-edit-product-selection input{
+    width: 15vw;
+    height: 5vh;
+    margin: 0;
+    border-radius: 10px;
+    /* border: solid 2px black; */
+}
+.admin-edit-product-company-price{
+    width: 80vw;
+    height: 15vh;
+}
+.admin-edit-product-company-price-upper{
+    width:30vw;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+}
+.admin-edit-product-company-price-upper button{
+    margin: 0 0 0 2vw ;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+    background-color: #DEE2FA;
+}
+.admin-edit-product-company-price-lower{
+    width: 30vw;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+}
+.admin-edit-product-company-price-lower select{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    padding: 1vh;
+    border-radius: 10px;
+    background-color: #DEE2FA;
+    margin: 0 0 0 2vw;
+}
+.admin-edit-product-company-price-lower input{
+    width: 40vw;
+    height: 5vh;
+    margin: 1vh 0 1vh 2vw;
+    border-radius: 10px;
+}
+.admin-edit-product-discription{
+    width: 80vw;
+    min-height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-edit-product-discription textarea{
+    width: 72vw;
+    height: 14vh;
+    border-radius: 10px;
+    padding: 2vw;
+}
+.admin-edit-product-buttons{
+    width: 80vw;
+    min-height:10vh;
+}
+.admin-edit-product-buttons button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 2vw;
+    font-size: 3vh;
+}
+.save{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.delete{
+    background-color: white;
+    color: red;
+    border: solid 2px red;
+}

@@ -1,0 +1,98 @@
+.admin-brands-container{
+    width: 80vw;
+    min-height: 100vh;
+}
+
+.admin-brands-header{
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-brands-header-left{
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.admin-brands-header-left p{
+    margin: 0 0 0 8vw ;
+}
+.admin-brands-header-left button{
+    margin: 0 0 0 1vw ;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+    background-color: #DEE2FA;
+}
+.admin-brands-header-right{
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.admin-brands-header-right input{
+    background-color: #E2E6FE;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 15px 0 0 15px;
+    padding: 0 0 0 1vw;
+    outline: none;
+    margin: 0 0 0 20vw;
+}
+.admin-brands-header-right button{
+    background-color: #E2E6FE;
+    border: none;
+    /* width: 3vw; */
+    height: 5vh;
+    padding: 0 1vw 0 0;
+    border-radius: 0 15px 15px 0;
+    outline: none;
+}
+/*=====================admin brands table=================*/
+
+.admin-brands-table-container{
+    width: 75vw;
+    min-height: 48vh;
+    height: fit-content;
+    padding: 1vh 0 1vh 3vw;
+}
+
+.admin-brands-table-container table{
+    width: 72vw;
+    border-collapse: separate;
+    border-spacing: 0 1vh; 
+}
+.admin-brands-table-container th{
+    background-color:#E2E6FE;
+    padding: 1vw;
+    text-align: end;
+}
+.admin-brands-table-container img{
+    width: 2vw;
+    color: #fff;
+    margin: 0 0.3vw 0 0;
+}
+.admin-brands-table-container td{
+    padding: 1vw;
+    font-weight: 400;
+    background-color:#E2E6FE;
+}
+.admin-brands-table-container i{
+    margin: 0.5vw;
+    text-align: center;
+}
+
+.brand-img{
+    width: 3vw;
+}
+.brand-name{
+    width: 3vw;
+}
+.brand-action{
+    text-align: end;
+}   

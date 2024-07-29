@@ -1,0 +1,20 @@
+.admin-add-container{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.admin-add-container input{
+    width: 40vw;
+    height: 5vh;
+    margin: 1vh 0 1vh 2vw;
+    border-radius: 10px;
+}
+.admin-add-container label{
+    margin: 2vw;
+}
+
+.admin-add-container img{
+    width: 20vw;
+    margin: 2vw;
+}

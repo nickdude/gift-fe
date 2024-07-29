@@ -1,0 +1,30 @@
+.create-category-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(141, 133, 133, 0.5);
+    backdrop-filter: blur(8px); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.create-category-container input{
+    width: 20vw;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    margin: 1vw;
+}
+.create-category-container button{
+    width: 10vw;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 2vh;
+    margin: 1vh;
+}

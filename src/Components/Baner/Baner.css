@@ -1,0 +1,33 @@
+.baner-container{
+    background-image: url('/public/assets/blur.svg'),url('/public/assets/pink_banner.svg');
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.baner-title{
+    width: 40vw;
+    color: #FFF;
+    text-align: center;
+    font-family: "League Spartan";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .baner-title{
+        width: 90vw;
+        color: #FFF;
+        text-align: center;
+        font-family: "League Spartan";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+}

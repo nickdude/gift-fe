@@ -1,0 +1,44 @@
+.add-company-container{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.add-company-container label{
+    margin: 4vh 0 0 2vw;
+    width: 40vw;
+    height: 4vh;
+}
+.add-company-container input{
+    margin: 0.5vh 0 0 2vw;
+    width: 40vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+.add-company-container button{
+    width: 3vw;
+    height: 3vw;
+    margin: 2vh 0 0 2vw;
+    border-radius: 10px;
+}
+.add-company-buttons button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 10vh 2vw;
+    font-size: 3vh;
+}
+.error{
+    color: red;
+    margin: 0 2vw 
+}
+/* .save{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.delete{
+    background-color: white;
+    color: red;
+    border: solid 2px red;
+} */

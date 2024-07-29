@@ -1,0 +1,189 @@
+.shipping-container{
+    height: fit-content;
+    width: 100vw;
+    min-height: 83vh;
+    display: flex;
+}
+.shipping-form-container{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.shipping-button{
+    margin: 5vh;
+}
+.shipping-summary{
+    height: 80vh;
+    width: 50vw;
+}
+.shipping-form-container p{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.shipping-form-container table {
+    width: 100%;
+}
+.shipping-form-container td {
+    padding: 5px;
+}
+.shipping-form-container label {
+    display: block;
+    text-align: left;
+    color: #959595;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.shipping-form-container input{
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    border-radius: 2px;
+    width: 13vw;
+    height: 3vh;
+}
+.input-field {
+    text-align: right;
+}
+.shipping-form-container textarea {
+    width: 13vw;
+    height: 8vh;
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    border-radius: 2px;
+}
+.shipping-form-container select{
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    border-radius: 2px;
+    width: 13vw;
+    height: 3vh;
+}
+
+.shipping-summary-container{
+    width: 35vw;
+    height: 30vh;
+    background-color: #73A9FA;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Table.css */
+.table-container {
+    width: 30vw;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FFF;
+   
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table td {
+    padding: 10px;
+    width: 8vw;
+    text-align: left;
+  }
+  
+  .horizontal-line {
+    border-top: 1px solid #000;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .shipping-container {
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shipping-form-container {
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .shipping-summary{
+        height: 35vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shipping-form-container input {
+        border: 1px solid #C6C6C6;
+        background: #FFF;
+        border-radius: 2px;
+        width: 55vw;
+        height: 3vh;
+    }
+    .shipping-form-container textarea {
+        width: 55vw;
+        height: 8vh;
+        border: 1px solid #C6C6C6;
+        background: #FFF;
+        border-radius: 2px;
+    }
+    .shipping-form-container select {
+        border: 1px solid #C6C6C6;
+        background: #FFF;
+        border-radius: 2px;
+        width: 55vw;
+        height: 3vh;
+    }
+    .shipping-summary-container{
+        width: 95vw;
+        height: 30vh;
+        background-color: #73A9FA;
+        margin-top: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+     .table-container {
+        width: 80vw;
+        height: 20vh;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #FFF;
+       
+      }
+      
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      .table td {
+        padding: 10px;
+        width: 8vw;
+        text-align: left;
+      }
+      
+      .horizontal-line {
+        border-top: 1px solid #000;
+        margin: 10px 0;
+      }
+      
+  }
+

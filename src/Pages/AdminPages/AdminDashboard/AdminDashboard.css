@@ -1,0 +1,105 @@
+.admin-dashboard-container{
+    width: 80vw;
+    min-height: 100vh;
+}
+
+/*========================Admin Search===============================*/
+
+.admin-dashboard-search-container{
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.admin-dashboard-search-container input{
+    background-color: #E2E6FE;
+    border: none;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 15px 0 0 15px;
+    padding: 0 0 0 1vw;
+    outline: none;
+}
+.admin-dashboard-search-container button{
+    background-color: #E2E6FE;
+    border: none;
+    /* width: 3vw; */
+    height: 5vh;
+    padding: 0 1vw 0 0;
+    border-radius: 0 15px 15px 0;
+    outline: none;
+}
+
+/*========================Admin Card===============================*/
+
+
+.admin-dashboard-card-container{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.admin-dashboard-card{
+    width: 13vw;
+    height: 28vh;
+    background-color: #E2E6FE;
+    margin: 3vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.admin-dashboard-card i{
+    border-radius: 50px;
+    background-color: #29AB91;
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 1.5vw;
+    color: #fff;
+}
+
+.admin-dashboard-card p{
+    text-align: center;
+    font-size: 1.3vw;
+    margin: 1vh;
+    font-weight: 500;
+}
+
+
+
+
+/*========================Admin Table===============================*/
+
+.admin-dashboard-table-container{
+    width: 75vw;
+    min-height: 48vh;
+    height: fit-content;
+    padding: 1vh 0 1vh 3vw;
+}
+
+.admin-dashboard-table-container table{
+    width: 72vw;
+    border-collapse: collapse;
+}
+.admin-dashboard-table-container th{
+    background-color:#405089;
+    color: #fff;
+    padding: 1vw;
+}
+.admin-dashboard-table-container img{
+    width: 2vw;
+    color: #fff;
+    margin: 0 0.3vw 0 0;
+}
+.admin-dashboard-table-container td{
+    padding: 1vw;
+    text-align: center;
+    font-weight: 400;
+}
+

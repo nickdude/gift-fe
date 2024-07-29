@@ -1,0 +1,35 @@
+.sidebar-container{
+    width: 20vw;
+    height: 100vh;
+    background-color: #40508D;
+    padding: 2vh;
+}
+.sidebar-container h2{
+    color: #FFF;
+    margin: 10vh 2vw 5vh 2vw;
+    letter-spacing: 0.2vw;
+}
+
+.sidebar-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-container ul li {
+    padding: 8px;
+    text-align: left;
+    margin: 0 0 0 2vw
+  }
+  
+  .sidebar-container ul li a {
+    text-decoration: none;
+    font-size: 4vh;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-weight: 300;
+  }
+  
+  .sidebar-container ul li a:hover {
+    font-size: 4.1vh;
+  }

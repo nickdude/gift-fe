@@ -1,0 +1,33 @@
+.most-popular-b2c-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1vh 0 1vh 0;
+   
+}
+.most-popular-b2c-title{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 4vh 0 4vh 0;
+}
+.most-popular-b2c-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.1vw; 
+    height: fit-content;
+  }
+
+  @media (max-width: 768px) {
+    .most-popular-b2c-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.1vw; 
+        height: fit-content;
+      }
+  }
+  

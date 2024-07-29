@@ -1,0 +1,99 @@
+.cat-card{
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cat-card-img{
+    width: 20vw;
+  }
+  .cat-pro-sub-title{
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 1vh 0;
+  }
+  .cat-pro-title{
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1vh 0;
+  }
+  .cat-button{
+    position: absolute;
+    flex-shrink: 0;
+    border-radius: 41px;
+    background: #EBA9D7;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 15px;
+    margin-top: 7vh;
+  }
+  .cat-title-container{
+    display: flex;
+    width: 20vw;
+    justify-content: space-around;
+  }
+  .cat-price{
+    font-weight: bold;
+  }
+  @media (max-width: 768px) {
+    .cat-card {
+        width: 90vw;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cat-title-container{
+      display: flex;
+      width: 90vw;
+      justify-content: space-around;
+    }
+    .cat-price{
+      font-weight: bold;
+    }
+
+    .cat-card-img {
+        width: 90vw;
+    }
+    .cat-button {
+        position: absolute;
+        flex-shrink: 0;
+        border-radius: 41px;
+        background: #EBA9D7;
+        border: none;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 4vw;
+        margin-top: 7vh;
+    }
+
+    .cat-pro-sub-title {
+        color: #000;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin: 0vh 0;
+    }
+  }

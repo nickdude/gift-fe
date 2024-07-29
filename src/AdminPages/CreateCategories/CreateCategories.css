@@ -1,0 +1,41 @@
+.create-cate-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.field-container{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.field-container input{
+    background-color:#fff;
+    border: 1px solid #47769d;
+    color: #47769d;
+    height: 3vh;
+    border-radius: 8px;
+    margin: 1vh;
+}
+.create-cat-button-container{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-cat-button-container button{
+    background-color: #47769d;
+    border: none;
+    border-radius: 20px;
+    width: 10vw;
+    height: 7vh;
+    margin: 1vw;
+    color: #fff;
+    font-size: 2vh;
+}

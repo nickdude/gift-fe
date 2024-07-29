@@ -1,0 +1,125 @@
+.get-in-touch-container{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.get-in-touch-container h1{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.get-in-touch-container-p{
+    margin-top: 0;
+    width: 15vw;
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.get-in-touch-form-container{
+    width: 100vw;
+    height: fit-content;
+}
+.get-in-touch-form-container table{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   flex-direction: column;
+   width: fit-content;
+}
+.get-in-touch-form-container td{
+    text-align: left;
+    width: 11vw;
+    color: #626262;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 1vh 1vw 0 1vw;
+}
+.get-in-touch-label-border{
+    border-bottom: 0.1vh solid black;
+}
+.get-in-touch-container input{
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    width: 40vw;
+    height: 4vh;
+}
+.get-in-touch-container textarea{
+    border: 1px solid #C6C6C6;
+    background: #FFF;
+    width: 40vw;
+    height: 8vh;
+}
+.get-in-touch-button{
+    width: 12vw;
+    margin: 5vh 0 3vh 34vw;
+}
+.get-in-touch-form-container table{
+    margin:  0 0 0 20vw;
+}
+.get-in-touch-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 18vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+
+@media (max-width: 768px) {
+    .get-in-touch-container h1{
+        color: #11314C;
+        font-family: Roboto;
+        font-size: 5vh;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .get-in-touch-container-p{
+        margin-top: 0;
+        width: 50vw;
+        color: #000;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .get-in-touch-form-container table{
+        margin-left: 18vw;
+   }
+   .get-in-touch-button{
+        width: 27vw;
+        margin: 5vh 0 0 34vw;
+    }
+    .get-in-touch-form-container td{
+        text-align: left;
+        width: 26vw;
+        color: #626262;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 1vh 1vw 0 1vw;
+    }
+
+}

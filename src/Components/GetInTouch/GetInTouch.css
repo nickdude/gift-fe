@@ -1,0 +1,152 @@
+.get-in-touch-comp-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.get-in-touch-comp-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.get-in-touch-comp-sub-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.get-in-touch-comp-dis{
+    width: 41vw;
+    height: 80vh;
+}
+.get-in-touch-comp-form-container{
+    width: 59vw;
+    height: 80vh;
+}
+.get-in-touch-comp-title{
+    margin: 12vh 0 5vh 15vw;
+    width: 22vw;
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98.148%;
+}
+.get-in-touch-comp-sub-title{
+    margin: 0 0 0 15vw;
+    width: 22vw;
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.get-in-touch-comp-field-container{
+    height: 30vh;
+    width: 32vw;
+    margin-top: 12vh;
+}
+.get-in-touch-comp-row{
+    width: 33vw;
+    height: 7vh;
+}
+.get-in-touch-comp-row input{
+    border: none;
+    /* background-color: #FFE8F2; */
+    height: 5vh;
+    width: 15vw;
+    border-radius: 5px;
+    margin: 1vh 1vw 1vh 0;
+    color: #656565;
+}
+.get-in-touch-comp-row textarea{
+    border: none;
+    /* background-color: #FFE8F2; */
+    height: 10vh;
+    width: 31vw;
+    border-radius: 5px;
+    margin: 1vh 1vw 1vh 0;
+    color: #656565;
+}
+.get-in-touch-comp-button-container{
+    width: 8vw;
+    margin: 4vh 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .get-in-touch-comp-sub-container{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .get-in-touch-comp-dis{
+        width: 90vw;
+        height: 50vh;
+    }
+    .get-in-touch-comp-title{
+        margin: 2vh 0 5vh 1vw;
+        width: 90vw;
+        color: #000;
+        font-family: "Libre Franklin";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 98.148%;
+    }
+    .get-in-touch-comp-sub-title{
+        margin: 0 0 0 0vw;
+        width: 90vw;
+        color: #000;
+        font-family: "Libre Franklin";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .get-in-touch-comp-form-container{
+        width: 90vw;
+        height: 80vh;
+    }
+    .get-in-touch-comp-field-container{
+        height: 30vh;
+        width: 90vw;
+        margin-top: 1vh;
+    }
+    .get-in-touch-comp-row{
+        width: 90vw;
+        height: 7vh;
+    }
+
+    .get-in-touch-comp-row input{
+        border: none;
+        background-color: #FFE8F2;
+        height: 5vh;
+        width: 42vw;
+        border-radius: 5px;
+        margin: 1vh 1vw 1vh 0;
+        color: #656565;
+    }
+    .get-in-touch-comp-row textarea{
+        border: none;
+        background-color: #FFE8F2;
+        height: 10vh;
+        width: 84vw;
+        border-radius: 5px;
+        margin: 1vh 1vw 1vh 0;
+        color: #656565;
+    }
+    .get-in-touch-comp-button-container{
+        width: 18vh;
+        margin: 2vh 0 0 0;
+    }
+    
+}

@@ -1,0 +1,73 @@
+.cate-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 80vh;
+}
+.cate-header{
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 1vh;
+}
+.add-button{
+    background-color: #11314C;
+    border-radius: 20px;
+    color: white;
+    width: 3vw;
+    height: 3vw;
+    margin: 1vw;
+    font-size: 4vh;
+}
+.cate-list-container{
+    width: 100vw;
+    height: fit-content;
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cate-card{
+    width: 35vw;
+    height: 8vh;
+    background-color: rgb(160, 163, 160);
+    color: #11314C;
+    font-family: Roboto;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin: 1.5vh;
+}
+.cate-card p{
+    width: 13vw;
+}
+.cate-card img{
+    height: 6vh ;
+    border-radius: 10px;
+    margin: 0 3vw 0 2vw;
+}
+.delete-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin: 0 0 0 0.5vw;
+}
+.edit-button{
+    height: 4vh;
+    width: 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 0 0 0 1vw;
+}
